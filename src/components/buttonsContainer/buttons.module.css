@@ -1,0 +1,108 @@
+.container {
+    padding: 5px;
+    display: flex;
+}
+
+.topButton button,
+.rightButton button,
+.midButton button {
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.leftBottomButton {
+    height: 3.3rem;
+    width: 6.6rem;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+    background-color: #333333;
+    border: 2px solid #333333;
+    color: white;
+
+}
+.rightBottomButton 
+{
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border: 2px solid #333333;
+    color: white;
+
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.topButton button {
+    background-color: #a5a5a5;
+    border: 2px solid #a5a5a5;
+}
+
+
+
+.rightButton button {
+    background-color: #ff9f0a;
+    border: 2px solid #ff9f0a;
+    color: white;
+}
+
+.midButton {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+}
+
+.midButton button {
+    background-color: #333333;
+    border: 2px solid #333333;
+    color: white;
+}
+
+.rightButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftButtons {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+/* Hover Styles */
+.topButton button:hover {
+    background-color: #8f8f8f;
+    border-color: #8f8f8f;
+}
+
+.leftBottomButton button:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+.rightBottomButton button:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+.rightButton button:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+}
+
+.midButton button:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
